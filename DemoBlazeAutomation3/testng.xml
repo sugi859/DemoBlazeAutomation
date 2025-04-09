@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Demoblaze Automation Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+
+    <test name="Functional Tests">
+        <classes>
+            <class name="tests.SignUpTests" />
+            <class name="tests.LoginTests" />
+            <class name="tests.ProductTests" />
+            <class name="tests.CartTests" />
+            <class name="tests.OrderTests" />
+            <class name="tests.LogoutTests" />
+        </classes>
+    </test>
+
+</suite>
